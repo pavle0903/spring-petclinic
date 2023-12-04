@@ -32,7 +32,7 @@ pipeline {
                         sh "docker login -u ${DOCKERHUB_USERNAME} -p ${DOCKERHUB_PASSWORD}"
                     }
 
-                    sh 'docker push pavle09/sprint-petclinic'
+                    sh 'docker push pavle09/spring-petclinic'
                     
                 }
             }
