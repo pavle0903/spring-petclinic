@@ -19,7 +19,7 @@ pipeline {
         stage('Build docker image') {
             steps {
                 script {
-                    sh 'docker build pavle09/spring-petclinic .'
+                    sh 'docker build -t pavle09/spring-petclinic .'
                 }
             }
         }
